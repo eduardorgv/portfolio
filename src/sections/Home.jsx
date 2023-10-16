@@ -1,6 +1,6 @@
 export const Home = () => {
   return (
-    <div className="mt-32 flex flex-col items-center justify-center text-center">
+    <div className="flex flex-col items-center justify-center text-center">
       <h2 className="mb-1 text-sm font-semibold uppercase text-stone-400">
         Welcome to my portfolio
       </h2>
@@ -10,11 +10,18 @@ export const Home = () => {
           <span className="font-extralight text-[#007AFF]">Eduardo</span>{' '}
           <span className="font-medium text-[#007AFF]">Rodríguez</span>
         </h1>
-        <h1 className="text-4xl md:text-6xl">Front-end developer</h1>
+        <h1 className="mt-3 text-4xl md:text-6xl">Front-end developer</h1>
       </div>
       <div className="mt-6 flex items-center justify-center gap-8">
-        <img className="h-12" src="/LinkedIn.png" alt="LinkedIn Logo" />
-        <img className="h-12" src="/GitHub.png" alt="GitHub Logo" />
+        <a
+          href="https://www.linkedin.com/in/josé-eduardo-rodríguez-gallegos-79a195213"
+          target="_blank"
+        >
+          <img className="h-12" src="/LinkedIn.png" alt="LinkedIn Logo" />
+        </a>
+        <a href="https://github.com/eduardorgv" target="_blank">
+          <img className="h-12" src="/GitHub.png" alt="GitHub Logo" />
+        </a>
       </div>
     </div>
   );

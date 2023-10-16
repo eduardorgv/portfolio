@@ -1,16 +1,11 @@
-import { useState } from 'react';
+import { Home } from './sections/Home';
+import { Header } from './ui/Header';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div>
-      <h1 className="text-center text-3xl font-bold underline">Hello world!</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nisi
-        voluptatum sequi itaque placeat totam fuga est illum tempora eligendi
-        magni optio provident error in pariatur cum fugiat, qui ratione.
-      </p>
+    <div className="mx-4 sm:mx-10 md:mx-20 lg:mx-28">
+      <Header />
+      <Home />
     </div>
   );
 }

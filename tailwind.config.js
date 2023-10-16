@@ -7,6 +7,10 @@ export default {
         IBM_Plex_Sans: 'IBM Plex Sans, sans-serif',
       },
     },
+    // colors: {
+    //   'cream': '#F5F5F7',
+    //   'appleBlue': '#007AFF'
+    // }
   },
   plugins: [],
 };

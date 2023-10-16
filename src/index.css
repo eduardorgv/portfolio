@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .smoothEaseInOut {
+        @apply transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 sm:hover:scale-110
+    }
+
+    .react-linear-gradient {
+        background: linear-gradient(105deg, rgba(72, 178, 255, 0.25) 2.02%, rgba(104, 171, 209, 0.12) 51.35%, rgba(213, 159, 255, 0.00) 98.4%);
+    }
+
+    .angular-linear-gradient {
+        background: linear-gradient(105deg, rgba(255, 89, 89, 0.25) 2.02%, rgba(208, 103, 103, 0.12) 51.66%, rgba(213, 159, 255, 0.00) 98.4%);
+    }
+
+    .vue-linear-gradient {
+        background: linear-gradient(105deg, rgba(65, 225, 110, 0.25) 2.02%, rgba(73, 153, 115, 0.12) 49.4%, rgba(213, 159, 255, 0.00) 98.4%);
+    }
+}

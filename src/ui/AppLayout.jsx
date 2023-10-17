@@ -1,15 +1,19 @@
 import { AboutMe } from '../sections/AboutMe';
 import { Home } from '../sections/Home';
+import { Portfolio } from '../sections/Portfolio';
 import { Services } from '../sections/Services';
 import { Header } from './Header';
 
 export const AppLayout = () => {
   return (
-    <div className="mx-4 mb-20 space-y-[8rem] sm:mx-10 md:mx-20 lg:mx-40">
+    <div className="space-y-[8rem]">
       <Header />
-      <Home />
-      <AboutMe />
-      <Services />
+      <div className="container mx-auto space-y-[8rem] px-5 pb-20">
+        <Home />
+        <AboutMe />
+        <Services />
+        <Portfolio />
+      </div>
     </div>
   );
 };

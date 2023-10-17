@@ -3,7 +3,7 @@ import { ServiceCard } from '../ui/ServiceCard';
 
 export const Services = () => {
   return (
-    <div className="space-y-8">
+    <div id='services' className="space-y-8">
       <h2 className="text-center text-3xl md:text-4xl">Services</h2>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
         {services.map((service) => (

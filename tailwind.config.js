@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        IBM_Plex_Sans: 'IBM Plex Sans, sans-serif',
+        IBM_Plex_Sans: 'Quicksand, sans-serif',
       },
     },
     // colors: {

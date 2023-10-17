@@ -1,10 +1,10 @@
 export const Home = () => {
   return (
-    <div className="flex flex-col items-center justify-center text-center">
-      <h2 className="mb-1 text-sm font-semibold uppercase text-stone-400">
+    <div className="flex min-h-screen flex-col items-center justify-center text-center">
+      <h2 className="mb-1 text-lg font-semibold uppercase text-stone-400">
         Welcome to my portfolio
       </h2>
-      <div className="text-5xl md:text-6xl">
+      <div className="text-6xl md:text-8xl">
         <h1>
           Hi, I'm{' '}
           <span className="font-extralight text-[#007AFF]">Eduardo</span>{' '}
@@ -17,10 +17,18 @@ export const Home = () => {
           href="https://www.linkedin.com/in/josé-eduardo-rodríguez-gallegos-79a195213"
           target="_blank"
         >
-          <img className="h-12" src="/LinkedIn.png" alt="LinkedIn Logo" />
+          <img
+            className="h-12 drop-shadow-md"
+            src="/LinkedIn.png"
+            alt="LinkedIn Logo"
+          />
         </a>
         <a href="https://github.com/eduardorgv" target="_blank">
-          <img className="h-12" src="/GitHub.png" alt="GitHub Logo" />
+          <img
+            className="h-12 drop-shadow-md"
+            src="/GitHub.png"
+            alt="GitHub Logo"
+          />
         </a>
       </div>
     </div>

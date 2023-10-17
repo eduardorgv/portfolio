@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <div className="text-center">
+    <div id="contact" className="text-center">
       <h2 className="mb-8 text-center text-3xl md:text-4xl">Contact</h2>
       <h3 className="text-3xl md:text-4xl">
         <span className="font-extralight text-[#007AFF]">Eduardo</span>{' '}
@@ -19,10 +19,18 @@ export const Contact = () => {
           href="https://www.linkedin.com/in/josé-eduardo-rodríguez-gallegos-79a195213"
           target="_blank"
         >
-          <img className="h-12" src="/LinkedIn.png" alt="LinkedIn Logo" />
+          <img
+            className="h-12 drop-shadow-md"
+            src="/LinkedIn.png"
+            alt="LinkedIn Logo"
+          />
         </a>
         <a href="https://github.com/eduardorgv" target="_blank">
-          <img className="h-12" src="/GitHub.png" alt="GitHub Logo" />
+          <img
+            className="h-12 drop-shadow-md"
+            src="/GitHub.png"
+            alt="GitHub Logo"
+          />
         </a>
       </div>
     </div>

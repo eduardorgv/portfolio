@@ -1,4 +1,5 @@
 import { AboutMe } from '../sections/AboutMe';
+import { Contact } from '../sections/Contact';
 import { Home } from '../sections/Home';
 import { Portfolio } from '../sections/Portfolio';
 import { Services } from '../sections/Services';
@@ -13,6 +14,7 @@ export const AppLayout = () => {
         <AboutMe />
         <Services />
         <Portfolio />
+        <Contact />
       </div>
     </div>
   );

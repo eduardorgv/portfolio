@@ -3,7 +3,7 @@ import { headerData } from '../data/headerData';
 export const HeaderMenu = () => {
   return (
     <>
-      <div className="block md:hidden">
+      <div className="block lg:hidden">
         <button
           id="nav-toggle"
           className="flex items-center rounded px-3 py-2 outline-none"
@@ -20,10 +20,10 @@ export const HeaderMenu = () => {
       </div>
 
       <div
-        className="hidden w-full flex-grow pt-6 md:flex md:w-auto md:items-center md:pt-0"
+        className="hidden w-full flex-grow pt-6 lg:flex lg:w-auto lg:items-center lg:pt-0"
         id="nav-content"
       >
-        <ul className="list-reset flex flex-col items-center justify-center font-semibold uppercase md:flex-1 md:flex-row md:justify-end">
+        <ul className="list-reset flex flex-col items-center justify-center font-semibold uppercase lg:flex-1 lg:flex-row lg:justify-end">
           {headerData.map((item) => (
             <li key={item.title} className="mr-3">
               <a

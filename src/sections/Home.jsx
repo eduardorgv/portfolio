@@ -5,13 +5,13 @@ export const Home = () => {
         <h2 className="mb-1 text-lg font-semibold uppercase text-stone-400">
           Welcome to my portfolio
         </h2>
-        <div className="text-6xl md:text-8xl">
+        <div className="text-6xl lg:text-8xl">
           <h1>
             Hi, I'm{' '}
             <span className="font-extralight text-[#007AFF]">Eduardo</span>{' '}
             <span className="font-medium text-[#007AFF]">Rodríguez</span>
           </h1>
-          <h1 className="mt-3 text-4xl md:text-6xl">Front-end developer</h1>
+          <h1 className="mt-3 text-4xl lg:text-6xl">Front-end developer</h1>
         </div>
         <div className="mt-6 flex items-center justify-center gap-8">
           <a

@@ -1,10 +1,10 @@
 export const Description = () => {
   return (
-    <div className="space-y-4 text-justify">
-      <h2 className="text-start text-3xl md:text-4xl font-bold">
+    <div className="text-justify">
+      <h2 className="text-start text-3xl lg:text-4xl font-bold">
         About
       </h2>
-      <div className="text-md md:text-lg font-semibold">
+      <div className="text-md lg:text-lg font-semibold">
         <p>
           I am a Software Engineer graduated from the Morelia Technological
           Institute. Passionate front-end developer with 2+ years of experience,

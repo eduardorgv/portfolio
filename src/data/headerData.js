@@ -4,8 +4,8 @@ export const headerData = [
     href: '#',
   },
   {
-    title: 'About me',
-    href: '#about-me',
+    title: 'About',
+    href: '#about',
   },
   {
     title: 'Services',

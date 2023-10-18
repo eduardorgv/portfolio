@@ -1,18 +1,16 @@
-import { AboutMe } from '../sections/AboutMe';
+import { About } from '../sections/About';
 import { Contact } from '../sections/Contact';
+import { Header } from './Header';
 import { Home } from '../sections/Home';
 import { Portfolio } from '../sections/Portfolio';
-import { Services } from '../sections/Services';
-import { Header } from './Header';
 
 export const AppLayout = () => {
   return (
     <main>
       <Header />
-      <section className="container mx-auto mt-0 px-5 pb-20">
+      <section className="">
         <Home />
-        <AboutMe />
-        <Services />
+        <About />
         <Portfolio />
         <Contact />
       </section>

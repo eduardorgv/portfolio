@@ -6,8 +6,8 @@ import { TechStack } from '../ui/TechStack';
 export const About = () => {
   const handleDownload = () => {
     const downloadLink = document.createElement('a');
-    downloadLink.href = '/José Eduardo Rodríguez Gallegos CV.pdf';
-    downloadLink.download = 'José Eduardo Rodríguez Gallegos CV.pdf';
+    downloadLink.href = '/cv.pdf';
+    downloadLink.download = 'cv.pdf';
     downloadLink.click();
   };
 

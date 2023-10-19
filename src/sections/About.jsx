@@ -4,6 +4,13 @@ import { ProfileCard } from '../ui/ProfileCard';
 import { TechStack } from '../ui/TechStack';
 
 export const About = () => {
+  const handleDownload = () => {
+    const downloadLink = document.createElement('a');
+    downloadLink.href = '/José Eduardo Rodríguez Gallegos CV.pdf';
+    downloadLink.download = 'José Eduardo Rodríguez Gallegos CV.pdf';
+    downloadLink.click();
+  };
+
   return (
     <section
       id="about"
@@ -17,7 +24,7 @@ export const About = () => {
           <Description />
           <TechStack />
           <div className="mt-6 flex items-center justify-center lg:justify-start">
-            <Button>Download my cv</Button>
+            <Button onClick={handleDownload}>Download my cv</Button>
           </div>
         </div>
       </div>

@@ -19,14 +19,14 @@ export const Home = () => {
             target="_blank"
           >
             <img
-              className="h-12 drop-shadow-md"
+              className="h-12 drop-shadow-md smoothEaseInOut"
               src="/LinkedIn.png"
               alt="LinkedIn Logo"
             />
           </a>
           <a href="https://github.com/eduardorgv" target="_blank">
             <img
-              className="h-12 drop-shadow-md"
+              className="h-12 drop-shadow-md smoothEaseInOut"
               src="/GitHub.png"
               alt="GitHub Logo"
             />

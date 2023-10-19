@@ -8,10 +8,6 @@ export const headerData = [
     href: '#about',
   },
   {
-    title: 'Services',
-    href: '#services',
-  },
-  {
     title: 'Portfolio',
     href: '#portfolio',
   },

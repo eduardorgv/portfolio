@@ -7,7 +7,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="flex items-center justify-center bg-[#007bff10] py-20"
+      className="flex min-h-screen items-center justify-center bg-[#007bff10] py-20"
     >
       <div className="flex w-5/6 flex-col justify-center gap-6 lg:grid lg:grid-cols-3 lg:grid-rows-2">
         <div className="flex items-center justify-center lg:row-span-2 lg:justify-start">

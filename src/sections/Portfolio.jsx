@@ -1,32 +1,21 @@
-import { HorizontalPortfolioCard } from '../ui/HorizontalPortfolioCard';
-import { horizontalPortfolioCardData } from '../data/horizontalPortfolioCard';
-import { VerticalPortfolioCard } from '../ui/VerticalPortfolioCard';
-import { verticalPortfolioCardData } from '../data/verticalPortfolioCard';
+import { portfolioCard } from '../data/portfolioData';
+import { PortfolioCard } from '../ui/PortfolioCard';
 
 export const Portfolio = () => {
   return (
-    <div id='portfolio'>
-      <h2 className="mb-8 text-center text-3xl md:text-4xl">Portfolio</h2>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-          {verticalPortfolioCardData.map((item) => (
-            <VerticalPortfolioCard
-              key={item.title}
-              title={item.title}
-              description={item.description}
-              src={item.src}
-              href={item.href}
-            />
-          ))}
-        </div>
-        <div className="grid grid-cols-1 gap-8">
-          {horizontalPortfolioCardData.map((item) => (
-            <HorizontalPortfolioCard
-              key={item.title}
-              title={item.title}
-              description={item.description}
-              src={item.src}
-              href={item.href}
+    <div
+      id="portfolio"
+      className="flex min-h-screen items-center justify-center py-40"
+    >
+      <div className="w-5/6">
+        <h2 className="mb-20 text-center text-3xl font-bold lg:text-4xl">
+          Portfolio
+        </h2>
+        <div className="flex flex-wrap place-items-center justify-center gap-12">
+          {portfolioCard.map((card) => (
+            <PortfolioCard
+              key={card.title}
+              card={card}
             />
           ))}
         </div>

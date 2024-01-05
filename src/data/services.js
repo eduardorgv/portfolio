@@ -12,6 +12,10 @@ export const teckStack = [
     src: '/JavaScript.png',
   },
   {
+    title: 'Typescript',
+    src: '/TypeScript.png',
+  },
+  {
     title: 'React',
     src: '/React.png',
   },
@@ -30,6 +34,10 @@ export const teckStack = [
   {
     title: 'Tailwind',
     src: '/Tailwind.png',
+  },
+  {
+    title: 'Material UI',
+    src: '/Material_UI.png',
   },
   {
     title: 'Git',

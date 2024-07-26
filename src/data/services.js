@@ -28,6 +28,14 @@ export const teckStack = [
     src: '/Vue.png',
   },
   {
+    title: 'Vite',
+    src: '/Vite.js.png'
+  },
+  {
+    title: 'NextJS',
+    src: '/Next.js.png'
+  },
+  {
     title: 'Bootstrap',
     src: '/Bootstrap.png',
   },

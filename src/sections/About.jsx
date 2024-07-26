@@ -6,8 +6,8 @@ import { TechStack } from '../ui/TechStack';
 export const About = () => {
   const handleDownload = () => {
     const downloadLink = document.createElement('a');
-    downloadLink.href = '/cv.pdf';
-    downloadLink.download = 'cv.pdf';
+    downloadLink.href = '/CV English.pdf';
+    downloadLink.download = 'CV English.pdf';
     downloadLink.click();
   };
 
